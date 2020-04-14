@@ -83,7 +83,7 @@ p {
     line-height: 28px;
 }
 
-.navigation li{
+.navigation li {
     display: inline-block;
     margin-left: 20px;
 }
@@ -103,19 +103,16 @@ p {
 .page-btn--colored {
     display: inline-block;
     background: #FF9900;
-    border:  1px solid #FF9900;
+    border: 1px solid #FF9900;
     border-radius: 6px;
     padding: 13px 15px;
     transition: all .5s;
-
-    
 }
 
 .header__content-text {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .header__description {
@@ -153,7 +150,7 @@ p {
     padding-top: 10px;
 }
 
-.header__description-videolink a{
+.header__description-videolink a {
     text-decoration-line: underline;
     color: #FF9900;
 }
@@ -162,10 +159,9 @@ p {
     max-width: 642px;
 }
 
-.header__image img{
+.header__image img {
     max-width: 100%;
 }
-
 
 .background {
     position: relative;
@@ -177,26 +173,21 @@ p {
     z-index: -1;
 }
 
-
 .design__title {
     position: relative;
     text-align: center;
-   
 }
 
 .design__title-item {
     margin: 0 auto;
     max-width: 460px;
-    
 }
 
 .design__inems {
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
-    
 }
-
 
 .design__item-title {
     margin-top: 30px;
@@ -208,14 +199,14 @@ p {
     max-width: 263px;
 }
 
-.design__button{
+.design__button {
     position: relative;
     text-align: center;
     margin-top: 60px;
     padding-bottom: 60px;
 }
 
-.strategies__title h2{
+.strategies__title h2 {
     text-align: left;
 }
 
@@ -251,9 +242,8 @@ p {
 }
 
 .strategies__pictures-item {
-    display:flex;
+    display: flex;
     flex-direction: column;
-
 }
 
 .strategies__pictures-image {
@@ -264,7 +254,7 @@ p {
     max-width: 790px;
 }
 
-.strategies__pictures-image img{
+.strategies__pictures-image img {
     max-width: 100%;
 }
 
@@ -305,11 +295,8 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 30px;
-    grid-template-areas: 
-    "item1 item2 item3"
-    "item4 item4 item5"
-    "item6 item7 item8"; 
-} 
+    grid-template-areas: "item1 item2 item3" "item4 item4 item5" "item6 item7 item8";
+}
 
 .strategies__pictures-item {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -336,7 +323,7 @@ p {
     margin-bottom: 100px;
 }
 
-.about__title h2{
+.about__title h2 {
     text-align: left;
 }
 
@@ -367,10 +354,7 @@ p {
     display: flex;
     justify-content: space-around;
     max-width: 380px;
-    
 }
-
-
 
 .about__item-into {
     display: flex;
@@ -391,14 +375,11 @@ p {
     line-height: 26px;
 }
 
-
-
 .about__item-photo {
     max-width: 100%;
-    
 }
 
-.about__item-photo img{
+.about__item-photo img {
     margin-left: -95px;
 }
 
@@ -406,7 +387,7 @@ p {
     background: #FFEEE1
 }
 
-.contact h2{
+.contact h2 {
     text-align: left;
 }
 
@@ -418,8 +399,7 @@ p {
     flex-wrap: wrap;
 }
 
-.contact-collumns__collumn {
-}
+.contact-collumns__collumn {}
 
 .contact-collumns__title {
     max-width: 528px;
@@ -434,12 +414,9 @@ p {
     display: flex;
     justify-content: left;
     margin-top: 33px;
-
-
 }
 
-.contact-collumns__phone-img {
-}
+.contact-collumns__phone-img {}
 
 .contact-collumns__phone-number {
     margin-left: 10px;
@@ -447,15 +424,13 @@ p {
     padding-top: 5px;
 }
 
-
 .contact-collumns__email {
     display: flex;
     justify-content: left;
     margin-top: 19px;
 }
 
-.contact-collumns__email-img {
-}
+.contact-collumns__email-img {}
 
 .contact-collumns__email-adress {
     margin-left: 10px;
@@ -475,22 +450,37 @@ p {
 .email {
     width: 275px;
     height: 45px;
-    
 }
 
 .message {
     width: 99%;
     margin-top: 16px;
     padding-bottom: 137px;
-    
 }
 
 .form-button {
     margin-top: 20px;
 }
 
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 56px;
+}
 
+.footer-links__title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
 
-
-
-
+.footer-links {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+}
