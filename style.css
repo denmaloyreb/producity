@@ -491,6 +491,19 @@ p {
     }
 }
 
+@media (max-width: 1024px) {
+    .about {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 999px) {
+    .about__items {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 790px) {
     .strategies__pictures-title {
         margin-top: 10px;
@@ -622,7 +635,8 @@ p {
         text-align: center;
     }
     .design__title-item h2,
-    .strategies__title h2 {
+    .strategies__title h2,
+    .about__title h2 {
         font-size: 21px;
         line-height: 30px;
     }
