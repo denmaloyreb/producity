@@ -53,7 +53,7 @@ p {
 }
 
 .header {
-    height: 90vh;
+    max-height: 90vh;
 }
 
 .container {
@@ -491,6 +491,39 @@ p {
     }
 }
 
+@media (max-width: 790px) {
+    .strategies__pictures-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .strategies__pictures-title h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .strategies__pictures-buttons {
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+    .strategies__pictures {
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width: 745px) {
+    .design__inems {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .design__item {
+        margin-top: 25px;
+    }
+    .strategies {
+        margin-top: -50px;
+    }
+}
+
 @media (max-width: 650px) {
     .header__buttons .page-btn {
         padding: 5px 9px;
@@ -498,6 +531,21 @@ p {
     }
     .header__content-text {
         margin-top: 35px;
+    }
+}
+
+@media only screen and (min-device-width: 560px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .design {
+        margin-top: 190px;
+    }
+    .design__inems {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .design {
+        margin-top: 30px;
     }
 }
 
@@ -521,13 +569,29 @@ p {
     }
 }
 
-@media (max-width: 535px) {
+@media (max-width: 540px) {
     .header__menu {
         max-width: 135px;
         margin-top: -25px;
     }
     .navigation li {
         line-height: 18px;
+    }
+    .design__inems {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1px;
+    }
+    .design__item-title,
+    .design__item-desription {
+        margin-top: 0px;
+    }
+    .strategies__pictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+        grid-template-areas: "item1 item2" "item4 item4" "item3 item5" "item6 item7" "item8 item8";
     }
 }
 
@@ -553,5 +617,13 @@ p {
         font-size: 30px;
         line-height: 47px;
         max-width: 394px;
+    }
+    .design__item-icon {
+        text-align: center;
+    }
+    .design__title-item h2,
+    .strategies__title h2 {
+        font-size: 21px;
+        line-height: 30px;
     }
 }
