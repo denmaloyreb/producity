@@ -485,6 +485,12 @@ p {
     line-height: 35px;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .design {
+        margin-top: 150px;
+    }
+}
+
 @media (max-width: 650px) {
     .header__buttons .page-btn {
         padding: 5px 9px;
@@ -525,11 +531,27 @@ p {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 390px) {
     .logo {
         max-width: 180px;
     }
     .logo img {
         width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .header__buttons .page-btn {
+        padding: 2px;
+        font-size: 50%;
+        width: 36px;
+    }
+}
+
+@media (max-width: 350px) {
+    .header__description-title {
+        font-size: 30px;
+        line-height: 47px;
+        max-width: 394px;
     }
 }
