@@ -625,6 +625,9 @@ p {
         grid-gap: 5px;
         grid-template-areas: "item1 item2" "item4 item4" "item3 item5" "item6 item7" "item8 item8";
     }
+    .header__description-title {
+        margin-top: 55px;
+    }
 }
 
 @media (max-width: 390px) {
