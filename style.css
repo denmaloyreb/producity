@@ -601,7 +601,7 @@ p {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 650px) {
     .header__menu {
         max-width: 135px;
         margin-top: -25px;
